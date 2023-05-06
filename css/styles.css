@@ -1,0 +1,69 @@
+:root {
+  --primary-brand-color: #4d5ae5;
+  --hover-btn-color: #404bbf;
+  --primary-background-color: #fcfcfc;
+  --primary-text-color: #434455;
+  --headings-text-color: #2e2f42;
+  --subheading-text-color: #2e2f42;
+  --white-text-color: #ffffff;
+  --light-text-color: #f4f4fd;
+  --accent-color: #e7e9fc;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+
+  background-color: var(--primary-background-color);
+  color: var(--subheading-text-color);
+}
+
+/* Links */
+
+.link {
+  text-decoration: none;
+}
+
+/* Lists */
+
+.list {
+  list-style: none;
+}
+
+/* Logo */
+
+.logo {
+  color: var(--primary-brand-color);
+}
+
+.logo-nav {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+
+  color: var(--subheading-text-color);
+}
+
+/* Navigation menu */
+
+.menu-item {
+  font-size: 16px;
+  line-height: 1.5;
+  color: var(--subheading-text-color);
+}
+
+/* Contacts menu */
+
+.contact-item {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  color: var(--primary-text-color);
+}
