@@ -1,6 +1,6 @@
 :root {
   --primary-brand-color: #4d5ae5;
-  --hover-btn-color: #404bbf;
+  --hover-color: #404bbf;
   --primary-background-color: #fcfcfc;
   --primary-text-color: #434455;
   --headings-text-color: #2e2f42;
@@ -21,13 +21,13 @@ body {
   color: var(--subheading-text-color);
 }
 
-/* Links */
+/* Links reset */
 
 .link {
   text-decoration: none;
 }
 
-/* Lists */
+/* Lists reset */
 
 .list {
   list-style: none;
@@ -58,6 +58,15 @@ body {
   color: var(--subheading-text-color);
 }
 
+.menu-item:hover,
+.menu-item:focus {
+  color: var(--hover-color);
+}
+
+.active-menu {
+  color: var(--hover-color);
+}
+
 /* Contacts menu */
 
 .contact-item {
@@ -66,4 +75,51 @@ body {
   font-size: 16px;
   line-height: 1.5;
   color: var(--primary-text-color);
+}
+
+.contact-item:hover,
+.contact-item:focus {
+  color: var(--hover-color);
+}
+
+/* Hero */
+.hero {
+  background-color: var(--subheading-text-color);
+}
+.hero-title {
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 1.07;
+  text-align: center;
+  color: #ffffff;
+}
+
+.button {
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+
+  color: var(--white-text-color);
+  background-color: var(--primary-brand-color);
+
+  cursor: pointer;
+}
+
+.button:hover,
+.button:focus {
+  background-color: var(--hover-color);
+}
+
+/* Section 1 */
+.item-title {
+  font-weight: 500;
+  font-size: 20px;
+}
+
+.item-description {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  color: var();
 }
