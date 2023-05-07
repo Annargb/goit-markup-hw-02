@@ -162,3 +162,9 @@ body {
 .footer-text {
   color: var(--light-text-color);
 }
+
+/* Portfolio */
+
+.item-title-link {
+  color: var(--headings-text-color);
+}
