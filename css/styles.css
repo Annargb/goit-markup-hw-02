@@ -1,7 +1,6 @@
 :root {
   --primary-brand-color: #4d5ae5;
   --hover-color: #404bbf;
-  --primary-background-color: #fcfcfc;
   --primary-text-color: #434455;
   --headings-text-color: #2e2f42;
   --white-text-color: #ffffff;
@@ -16,7 +15,7 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
 
-  background-color: var(--primary-background-color);
+  background-color: var(--white-text-color);
   color: var(--headings-text-color);
 }
 
@@ -142,6 +141,16 @@ body {
   line-height: 1.11;
   text-align: center;
   text-transform: capitalize;
+}
+
+/* Section 3 */
+
+.team-members-cards {
+  background-color: var(--light-text-color);
+}
+
+.team-member-card {
+  background-color: var(--white-text-color);
 }
 
 /* Footer */
