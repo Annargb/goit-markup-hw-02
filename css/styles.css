@@ -4,7 +4,6 @@
   --primary-background-color: #fcfcfc;
   --primary-text-color: #434455;
   --headings-text-color: #2e2f42;
-  --subheading-text-color: #2e2f42;
   --white-text-color: #ffffff;
   --light-text-color: #f4f4fd;
   --accent-color: #e7e9fc;
@@ -12,13 +11,13 @@
 
 body {
   font-family: 'Roboto', sans-serif;
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 1.2;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
   letter-spacing: 0.02em;
 
   background-color: var(--primary-background-color);
-  color: var(--subheading-text-color);
+  color: var(--headings-text-color);
 }
 
 /* Links reset */
@@ -46,16 +45,21 @@ body {
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+}
 
-  color: var(--subheading-text-color);
+.logo-nav-dark {
+  color: var(--headings-text-color);
+}
+
+.logo-nav-light {
+  color: var(--light-text-color);
 }
 
 /* Navigation menu */
 
 .menu-item {
-  font-size: 16px;
-  line-height: 1.5;
-  color: var(--subheading-text-color);
+  font-weight: 500;
+  color: var(--headings-text-color);
 }
 
 .menu-item:hover,
@@ -71,9 +75,6 @@ body {
 
 .contact-item {
   font-style: normal;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 1.5;
   color: var(--primary-text-color);
 }
 
@@ -84,30 +85,41 @@ body {
 
 /* Hero */
 .hero {
-  background-color: var(--subheading-text-color);
+  background-color: var(--headings-text-color);
 }
 .hero-title {
   font-weight: 700;
   font-size: 56px;
   line-height: 1.07;
   text-align: center;
-  color: #ffffff;
+  color: var(--white-text-color);
 }
 
 .button {
   font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.04em;
-
-  color: var(--white-text-color);
-  background-color: var(--primary-brand-color);
-
   cursor: pointer;
 }
 
-.button:hover,
-.button:focus {
+.primary-button {
+  color: var(--white-text-color);
+  background-color: var(--primary-brand-color);
+}
+
+.secondary-button {
+  color: var(--primary-brand-color);
+  background-color: var(--light-text-color);
+}
+
+.primary-button:hover,
+.primary-button:focus,
+.secondary-button:hover,
+.secondary-button:focus {
+  color: var(--white-text-color);
   background-color: var(--hover-color);
 }
 
@@ -115,11 +127,29 @@ body {
 .item-title {
   font-weight: 500;
   font-size: 20px;
+  line-height: 1.2;
 }
 
 .item-description {
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 1.5;
-  color: var();
+  color: var(--primary-text-color);
+}
+
+/* Section 2 */
+
+.section-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  text-transform: capitalize;
+}
+
+/* Footer */
+
+.footer {
+  background-color: var(--headings-text-color);
+}
+
+.footer-text {
+  color: var(--light-text-color);
 }
