@@ -13,10 +13,9 @@ body {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
-  letter-spacing: 0.02em;
 
   background-color: var(--white-text-color);
-  color: var(--headings-text-color);
+  color: var(--primary-text-color);
 }
 
 /* Links reset */
@@ -58,6 +57,7 @@ body {
 
 .menu-item {
   font-weight: 500;
+  letter-spacing: 0.02em;
   color: var(--headings-text-color);
 }
 
@@ -68,10 +68,6 @@ body {
   color: var(--hover-color);
 }
 
-/* .active-menu {
-  color: var(--hover-color);
-} */
-
 /* Contacts menu */
 
 .contacts-menu {
@@ -79,6 +75,7 @@ body {
 }
 
 .contact-item {
+  letter-spacing: 0.02em;
   color: var(--primary-text-color);
 }
 
@@ -91,6 +88,7 @@ body {
   font-size: 56px;
   line-height: 1.07;
   text-align: center;
+  letter-spacing: 0.02em;
   color: var(--white-text-color);
 }
 
@@ -127,10 +125,13 @@ body {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
+  letter-spacing: 0.02em;
+
+  color: var(--headings-text-color);
 }
 
 .item-description {
-  color: var(--primary-text-color);
+  letter-spacing: 0.02em;
 }
 
 /* Section 2 */
@@ -140,7 +141,10 @@ body {
   font-size: 36px;
   line-height: 1.11;
   text-align: center;
+  letter-spacing: 0.02em;
   text-transform: capitalize;
+
+  color: var(--headings-text-color);
 }
 
 /* Section 3 */
