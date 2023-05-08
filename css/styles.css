@@ -172,3 +172,7 @@ body {
 .item-title-link {
   color: var(--headings-text-color);
 }
+
+.item-description-link {
+  color: var(--primary-text-color);
+}
